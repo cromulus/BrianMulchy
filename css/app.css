@@ -1,0 +1,15 @@
+body{
+  background: url("../img/ukraine_car.jpg") 50% 50% scroll !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+menu_item{
+display:block;
+}
+menu{
+display:block;
+}
