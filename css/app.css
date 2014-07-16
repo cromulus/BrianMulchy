@@ -1,15 +1,23 @@
 body{
-  background: url("../img/ukraine_car.jpg") 50% 50% scroll !important;
+  background: url("../img/Home_Page_Name.png") top center no-repeat;
+  background-color:black;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  -webkit-background-size: cover;
+  background-size: 80%;
+  /*-webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover;*/
 }
-menu_item{
-display:block;
+
+.menu{
+position:absolute;
+margin-top: 200px;
+margin-left: 370px;
+color: white;
 }
-menu{
-display:block;
+.menu_item img{
+  height:60px;
+}
+
+.fancybox-skin{
+  background-color:black !important;
 }
