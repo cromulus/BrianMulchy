@@ -41,7 +41,7 @@
           </p>
           <p>
             <a class="menu_item" id="comedy" href="http://player.vimeo.com/video/100783302">
-              <img src="./img/comedy.png" style="height: 78px;">
+              <img src="./img/comedy.png" id="comedy_img">
             </a>
           <p>
         </div>
@@ -70,12 +70,13 @@
 
 <script type="text/javascript">
 	$(document).ready(function() {
-
 		$(".menu_item").fancybox({
       width: 960,
       height: 409,
       type: 'iframe',
-      fitToView : false
+      autoSize: true,
+      aspectRatio: true,
+      scrolling: 'no'
     });
 	});
 </script>
