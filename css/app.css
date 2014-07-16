@@ -9,13 +9,15 @@ body{
 }
 
 .menu{
-position:absolute;
-margin-top: 200px;
-margin-left: 370px;
-color: white;
+  position:absolute;
+  margin-top: 200px;
+  margin-left: 370px;
+  color: white;
 }
+
 .menu_item img{
-  height:60px;
+  max-height: 35%;
+  max-width: 45%;
 }
 
 .fancybox-skin{
